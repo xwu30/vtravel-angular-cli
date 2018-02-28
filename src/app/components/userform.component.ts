@@ -26,7 +26,7 @@ private mytime: Date = new Date();
 currentYear: any = this.mytime.getUTCFullYear();
 currentDate: any = this.mytime.getUTCDate();
 currentMonth: any = this.mytime.getUTCMonth() + 1; //months from 1-12
-
+//
 public myDatePickerOptions: IMyDpOptions = {
   todayBtnTxt: '今天',
   dateFormat: 'yyyy-mm-dd',
